@@ -105,24 +105,9 @@
       </form>
     </div>
     <nav class="menu_nav">
-      <ul class="menu_mm">
+      <ul>
         <li class="menu_mm">
           <a href="index.html">home</a>
-        </li>
-        <li class="menu_mm">
-          <a href="#">Fashion</a>
-        </li>
-        <li class="menu_mm">
-          <a href="#">Gadgets</a>
-        </li>
-        <li class="menu_mm">
-          <a href="#">Lifestyle</a>
-        </li>
-        <li class="menu_mm">
-          <a href="#">Video</a>
-        </li>
-        <li class="menu_mm">
-          <a href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
@@ -139,9 +124,6 @@
       data-parallax="scroll"
       data-speed="0.8" />
     <div class="home_content">
-      <div class="post_category trans_200">
-        <a href="category.html" class="trans_200">{pageData.category}</a>
-      </div>
       <div class="post_title">{pageData.title}</div>
       <div
         class="post_author d-flex flex-row align-items-center
@@ -176,22 +158,6 @@
               <div
                 class="tags_share d-flex flex-row align-items-center
                 justify-content-start">
-                <div class="post_tags">
-                  <ul>
-                    <li class="post_tag">
-                      <a href="#">Liberty</a>
-                    </li>
-                    <li class="post_tag">
-                      <a href="#">Manual</a>
-                    </li>
-                    <li class="post_tag">
-                      <a href="#">Interpretation</a>
-                    </li>
-                    <li class="post_tag">
-                      <a href="#">Recommendation</a>
-                    </li>
-                  </ul>
-                </div>
                 <div class="post_share ml-sm-auto">
                   <span>share</span>
                   <ul class="post_share_list">
