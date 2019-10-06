@@ -5,7 +5,7 @@
   let slug;
   let imageURL;
 
-  onMount(async function() {
+  onMount(async function preload() {
     const response = await fetch("https://blog-api-isight.herokuapp.com/posts");
     posts = await response.json();
     posts = posts.filter(i => window.location.pathname.includes(i.slug));
@@ -26,7 +26,7 @@
             class="header_content d-flex flex-row align-items-center
             justify-content-start">
             <div class="logo">
-              <a href="/">Isight Blog</a>
+              <a rel="prefetch" href="/">Isight Blog</a>
             </div>
             <!-- <nav class="main_nav">
               <ul>
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="logo menu_mm">
-      <a href="/">Isight Blog</a>
+      <a rel="prefetch" href="/">Isight Blog</a>
     </div>
     <div class="search">
       <form action="#">
